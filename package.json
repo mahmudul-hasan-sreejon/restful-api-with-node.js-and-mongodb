@@ -1,0 +1,23 @@
+{
+  "name": "RESTful-API-with-Node.js",
+  "version": "1.0.0",
+  "description": "Simple RESTful API implementation on Node.js and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreejonK19/RESTful-API-with-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreejonK19/RESTful-API-with-Node.js/issues"
+  },
+  "homepage": "https://github.com/sreejonK19/RESTful-API-with-Node.js#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
