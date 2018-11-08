@@ -19,6 +19,7 @@
   "homepage": "https://github.com/sreejonK19/RESTful-API-with-Node.js#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "joi": "^14.0.4"
+    "joi": "^14.0.4",
+    "mongoose": "^5.3.10"
   }
 }
