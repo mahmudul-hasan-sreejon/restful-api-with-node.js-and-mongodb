@@ -34,6 +34,15 @@ app.get("/api/courses/:id", (req, res) => {
 });
 
 app.post("/api/courses", (req, res) => {
+    if(!req.body.name) {
+        res.status(400).send("Please add a name...");
+        return;
+    }
+    if(req.body.name.length < 3) {
+        res.status(100).send("Enter a big name...");
+        return;
+    }
+    
     const course = {
         id: courses.length + 1,
         name: req.body.name
