@@ -23,11 +23,11 @@ mongoose.connect(dbConfig.uri, { useNewUrlParser: true }
 });
 
 
-// Require courses routes
+// Require course routes
 require('./app/routes/course.routes.js')(app);
 
 
-// Port mapping;
+// Port mapping
 const port = process.env.PORT || 3000;
 // listen for requests
 app.listen(port, () => console.log(`Listening on port ${port}...`));

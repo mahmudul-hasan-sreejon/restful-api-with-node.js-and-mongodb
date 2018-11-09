@@ -1,6 +1,7 @@
 module.exports = (app) => {
     const courses = require('../controllers/course.controller.js');
 
+    
     // Retrieve all courses
     app.get('/api/courses', courses.findAll); // GET Method
 

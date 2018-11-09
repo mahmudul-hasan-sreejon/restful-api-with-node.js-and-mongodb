@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+
+// Course collection schema
 const courseSchema = mongoose.Schema(
     {    
         id: Number,
