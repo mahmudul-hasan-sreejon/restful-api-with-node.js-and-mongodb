@@ -23,6 +23,9 @@ mongoose.connect(dbConfig.uri, { useNewUrlParser: true }
 
 /////////////////////////////////////////// Routes ////////////////////////////////////////////////
 
+// Require courses routes
+require('./app/routes/course.routes.js')(app);
+
 // GET Method
 app.get("/api/courses", (req, res) => {
     res.send("Hello world!!!");
