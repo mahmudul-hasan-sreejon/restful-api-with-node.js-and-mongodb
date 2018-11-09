@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5be5e9b25851611bc41d7668"},"id":1,"name":"Bangla","createdAt":{"$date":"2018-11-09T20:10:26.866Z"},"updatedAt":{"$date":"2018-11-09T20:10:26.866Z"},"__v":0}
+{"_id":{"$oid":"5be5e9bc5851611bc41d7669"},"id":2,"name":"English","createdAt":{"$date":"2018-11-09T20:10:36.153Z"},"updatedAt":{"$date":"2018-11-09T20:10:36.153Z"},"__v":0}
+{"_id":{"$oid":"5be5e9c45851611bc41d766a"},"id":3,"name":"Math","createdAt":{"$date":"2018-11-09T20:10:44.081Z"},"updatedAt":{"$date":"2018-11-09T20:10:44.081Z"},"__v":0}
+{"_id":{"$oid":"5be5e9d25851611bc41d766b"},"id":4,"name":"Science","createdAt":{"$date":"2018-11-09T20:10:58.590Z"},"updatedAt":{"$date":"2018-11-09T20:10:58.590Z"},"__v":0}
