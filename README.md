@@ -4,14 +4,59 @@ This project is a REST API server implementation built on top `Node.js` and `Exp
 
 ## Running project
 
-## Manual
+## Docker
 
-You need to have [Node.js](https://nodejs.org) and [MongoDB](https://www.mongodb.com) installed.
+You need to have [Docker](https://www.docker.com/community-edition) installed.
 
 ### Run server
 
 ```sh
-npm start
-OR,
-node server.js
+docker-compose up -d
+OR
+./build.ps1
 ```
+NOTE: Demo dataset will also be created through this process.
+
+## Make Requests
+
+Get your data:
+
+```sh
+http GET http://localhost:3000/api/courses
+
+http GET http://localhost:3000/api/courses/<course-id>
+```
+
+Create a new course:
+
+```sh
+curl -v -H "Content-Type: application/json" -X POST -d "{ \"name\": \"<course-name>\" }" http://localhost:3000/api/courses
+```
+
+Update course name:
+
+```sh
+curl -v -H "Content-Type: application/json" -X PUT -d "{ \"name\": \"<new-course-name>\" }" http://localhost:3000/api/courses/<course-id>
+```
+
+Delete data:
+
+```sh
+http DELETE http://localhost:3000/api/courses/<course-id>
+```
+
+## Modules used
+
+Some of non-standard modules used:
+
+* [express](https://www.npmjs.com/package/express)
+* [mongoose](https://www.npmjs.com/package/mongoose)
+* [body-parser](https://www.npmjs.com/package/body-parser)
+
+## Tools used
+
+* [Postman](https://www.getpostman.com/)
+
+## Author
+
+Created and maintained by Mahmudul Hasan Sreejon ([@sreejonK19](https://github.com/sreejonK19)).
