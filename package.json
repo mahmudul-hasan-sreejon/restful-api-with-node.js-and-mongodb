@@ -2,9 +2,9 @@
   "name": "RESTful-API-with-Node.js-and-MongoDB",
   "version": "1.0.0",
   "description": "Simple RESTful API implementation on Node.js and MongoDB",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
