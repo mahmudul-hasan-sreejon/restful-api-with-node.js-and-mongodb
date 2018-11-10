@@ -1,22 +1,23 @@
 {
-  "name": "RESTful-API-with-Node.js",
+  "name": "RESTful-API-with-Node.js-and-MongoDB",
   "version": "1.0.0",
   "description": "Simple RESTful API implementation on Node.js and MongoDB",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sreejonK19/RESTful-API-with-Node.js.git"
+    "url": "git+https://github.com/sreejonK19/RESTful-API-with-Node.js-and-MongoDB.git"
   },
   "keywords": [],
   "author": "Mahmudul Hasan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sreejonK19/RESTful-API-with-Node.js/issues"
+    "url": "https://github.com/sreejonK19/RESTful-API-with-Node.js-and-MongoDB/issues"
   },
-  "homepage": "https://github.com/sreejonK19/RESTful-API-with-Node.js#readme",
+  "homepage": "https://github.com/sreejonK19/RESTful-API-with-Node.js-and-MongoDB#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
